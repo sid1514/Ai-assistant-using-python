@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1672</width>
+    <height>945</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>10</y>
+      <width>2000</width>
+      <height>1020</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>lib/bg2.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>400</y>
+      <width>191</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>341</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>lib/mic1.png</normaloff>lib/mic1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>150</width>
+      <height>120</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1800</x>
+      <y>30</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>lib/close.png</normaloff>lib/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>220</y>
+      <width>211</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;HARRY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>400</y>
+      <width>411</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;Commands&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>4</number>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByMouse</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-style:italic; color:#ffffff;&quot;&gt;DATE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;DAY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1672</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelpful_commands">
+    <property name="title">
+     <string>Helpful commands</string>
+    </property>
+    <widget class="QMenu" name="menufor_remember_anything">
+     <property name="title">
+      <string>for remember anything</string>
+     </property>
+     <addaction name="action_remembar_that_user_voice_input"/>
+    </widget>
+    <widget class="QMenu" name="menucreating_text_file">
+     <property name="title">
+      <string>creating text file</string>
+     </property>
+     <addaction name="action_create_text_file_name"/>
+    </widget>
+    <widget class="QMenu" name="menucreating_table">
+     <property name="title">
+      <string>creating table</string>
+     </property>
+     <addaction name="action_create_table"/>
+    </widget>
+    <widget class="QMenu" name="menumaths_function">
+     <property name="title">
+      <string>maths function</string>
+     </property>
+     <addaction name="action_add_two_number"/>
+     <addaction name="action_subtract"/>
+     <addaction name="action_multiply"/>
+     <addaction name="action_divide"/>
+     <addaction name="action_area_of_tringle_circle_rectangle"/>
+    </widget>
+    <widget class="QMenu" name="menufor_clicking_photo">
+     <property name="title">
+      <string>for clicking photo</string>
+     </property>
+     <addaction name="action_take_a_photo"/>
+     <addaction name="action_open_camera"/>
+    </widget>
+    <widget class="QMenu" name="menufor_screenshot">
+     <property name="title">
+      <string>for screenshot</string>
+     </property>
+     <addaction name="action_take_a_screenshot"/>
+     <addaction name="action_open_screensave"/>
+    </widget>
+    <widget class="QMenu" name="menuyoutube_commands">
+     <property name="title">
+      <string>youtube commands</string>
+     </property>
+     <addaction name="action_open_youtube"/>
+     <addaction name="action_you_tube_channel_name"/>
+    </widget>
+    <widget class="QMenu" name="menusearch_commands">
+     <property name="title">
+      <string>search commands</string>
+     </property>
+     <addaction name="action_tell_me_about_user_input"/>
+     <addaction name="action_search_user_input"/>
+    </widget>
+    <widget class="QMenu" name="menuchrome_commands">
+     <property name="title">
+      <string>chrome commands</string>
+     </property>
+     <addaction name="action_open_chrome"/>
+     <addaction name="action_open_new_window"/>
+     <addaction name="action_open_new_tab"/>
+     <addaction name="action_open_history"/>
+    </widget>
+    <addaction name="menufor_remember_anything"/>
+    <addaction name="menucreating_text_file"/>
+    <addaction name="menucreating_table"/>
+    <addaction name="menumaths_function"/>
+    <addaction name="menufor_clicking_photo"/>
+    <addaction name="menufor_screenshot"/>
+    <addaction name="menuyoutube_commands"/>
+    <addaction name="menuchrome_commands"/>
+    <addaction name="menusearch_commands"/>
+   </widget>
+   <addaction name="menuHelpful_commands"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_remembar_that_user_voice_input">
+   <property name="text">
+    <string>&quot;remembar that {user voice input}&quot;</string>
+   </property>
+  </action>
+  <action name="action_create_text_file_name">
+   <property name="text">
+    <string>&quot;create text {file name}&quot;</string>
+   </property>
+  </action>
+  <action name="action_create_table">
+   <property name="text">
+    <string>&quot;create table&quot;</string>
+   </property>
+  </action>
+  <action name="action_add_two_number">
+   <property name="text">
+    <string>&quot;add two number&quot;</string>
+   </property>
+  </action>
+  <action name="action_subtract">
+   <property name="text">
+    <string>&quot;subtract&quot;</string>
+   </property>
+  </action>
+  <action name="action_multiply">
+   <property name="text">
+    <string>&quot;multiply&quot;</string>
+   </property>
+  </action>
+  <action name="action_divide">
+   <property name="text">
+    <string>&quot;divide&quot;</string>
+   </property>
+  </action>
+  <action name="action_area_of_tringle_circle_rectangle">
+   <property name="text">
+    <string>&quot;area of tringle/circle/rectangle&quot;</string>
+   </property>
+  </action>
+  <action name="action_take_a_photo">
+   <property name="text">
+    <string>&quot;take a photo&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_camera">
+   <property name="text">
+    <string>&quot;open camera&quot;</string>
+   </property>
+  </action>
+  <action name="action_take_a_screenshot">
+   <property name="text">
+    <string>&quot;take a screenshot&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_screensave">
+   <property name="text">
+    <string>&quot;open screensave&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_youtube">
+   <property name="text">
+    <string>&quot;open youtube&quot;</string>
+   </property>
+  </action>
+  <action name="action_you_tube_channel_name">
+   <property name="text">
+    <string>&quot;you tube {channel name}&quot;</string>
+   </property>
+  </action>
+  <action name="action_tell_me_about_user_input">
+   <property name="text">
+    <string>&quot;tell me about{user input}&quot;</string>
+   </property>
+  </action>
+  <action name="action_search_user_input">
+   <property name="text">
+    <string>&quot;search {user input}&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_chrome">
+   <property name="text">
+    <string>&quot;open chrome&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_new_window">
+   <property name="text">
+    <string>&quot;open new window&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_new_tab">
+   <property name="text">
+    <string>&quot;open new tab&quot;</string>
+   </property>
+  </action>
+  <action name="action_open_history">
+   <property name="text">
+    <string>&quot;open history&quot;</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
